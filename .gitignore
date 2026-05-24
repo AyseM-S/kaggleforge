@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+
+# App specific
+uploads/
+outputs/
+*.csv
+!requirements.txt
+
+# Streamlit
+.streamlit/
+
+# ML / PyCaret / CatBoost
+catboost_info/
+*.pkl
+*.model
+
+# Logs
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
